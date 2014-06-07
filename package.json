@@ -1,0 +1,27 @@
+{
+  "name": "hapi-medium",
+  "version": "0.0.1",
+  "description": "A simple library for quickly spinning up a flexible Backbone-compatible RESTful API using the HAPI framework. Very good as a backend for rapid prototyping.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owenscott/hapi-medium"
+  },
+  "keywords": [
+    "hapi",
+    "backbone"
+  ],
+  "author": "Owen Scott (owen.m.scott@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/owenscott/hapi-medium/issues"
+  },
+  "dependencies": {
+    "mongodb": "~1.4.5",
+    "underscore": "~1.6.0",
+    "hapi": "~5.1.0"
+  }
+}
